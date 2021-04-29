@@ -8,6 +8,50 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="popup">
+    <div class="popup_container">
+      <div class="feedback">
+        <h3 class="title_section">Ваш фидбэк</h3> 
+        <div class="feedback_content">
+          <form class="feedback_form">
+            <div class="first_question">
+             <label class="label_first">
+               <span>Как часто вы заходите на сайт?</span>
+               <select class="select">
+                <option value="1" selected>Почти каждый день</option>
+                <option value="2">Раз в несколько дней</option>
+                <option value="3">Раз в несколько недель</option>
+                <option value="4">Несколько раз в год</option>
+               </select>
+             </label>
+            </div>
+
+            <div class="second_question">
+               <span>Вы подписаны на email рассылку? </span>
+               <section class="radio_button">
+                <label class="yes_label">
+                  <input type="radio" class="yes" name="gender"><span class="button_yes">Да</span>
+                </label>
+                <label class="no_label">
+                  <input type="radio" class="no" name="gender"><span class="button_no">Нет</span>
+                </label>
+               </section>
+            </div>
+
+            <div class="third_question">
+              <label class="label_for_textarea">
+                <span class="name_third_question">Расскажите, какой контент вы хотели бы увидеть на нашем сайте?</span>
+                <textarea class="tell_about" placeholder="Может, больше рецептов?" required></textarea>
+              </label>
+            </div>
+            <button class="button_send" type="button">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <button class="popup_close" type="button"></button>
+    </div>
+  </div>
+  
     <header class="header">
         <section class="header_container">
           <a class="logo" href="/">
