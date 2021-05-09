@@ -11,7 +11,7 @@
   <div class="popup">
     <div class="popup_container">
       <div class="feedback">
-        <h3 class="title_section">Ваш фидбэк</h3> 
+        <h2 class="title_section">Ваш фидбэк</h2> 
         <div class="feedback_content">
           <form class="feedback_form">
             <div class="first_question">
@@ -53,11 +53,14 @@
   </div>
   
     <header class="header">
-        <section class="header_container">
-          <a class="logo" href="/">
+        <div class="header_container">
+          <a class="logo" href="#0">
             <img class="logo_img" src="svg/noemi-logo.svg" alt="Логотип">
           </a>
           <nav class="navigation_menu">
+            <button class="burger">
+              <span class="burger_label">открыть меню</span>
+            </button>
             <ul class="list_menu">
               <li class="item_menu">
                 <a class="menu_link" href="#home">Главная</a>
@@ -79,17 +82,15 @@
               </li>
             </ul>
           </nav>
-        </section>
+        </div>
         <h1 class="name_blog">Блог о творчестве, спорте, и образе жизни</h1>
     </header>
 
     <div class="section_trends">
-      <h2 class="title_section">
-            <a class="link_section" href="#0">Сейчас в тренде</a>
-      </h2>
+      <h2 class="title_section">Сейчас в тренде</h2>
       <div class="trends_card_container">
         <article class="trend_card_1">
-          <section class="preview_trend_card">
+          <div class="preview_trend_card">
             <div class="article_menu">
               <ul class="menu_category_article">
                 <li class="item_article_menu">
@@ -104,10 +105,10 @@
               <a class="link_trend_card" href="#0">Сейчас в тренде сад на подоконнике 
                </a>
             </h2>
-          </section>  
+          </div>  
         </article>
         <article class="trend_card_2">
-          <section class="preview_trend_card">
+          <div class="preview_trend_card">
             <div class="article_menu">
               <ul class="menu_category_article">
                 <li class="item_article_menu">
@@ -118,10 +119,10 @@
             <h2 class="title_trend_card">
               <a class="link_trend_card" href="#0">Сыры на красивых картинках из интернета: какие они на вкус?</a>
             </h2>
-          </section>
+          </div>
         </article>
         <article class="trend_card_3">
-          <section class="preview_trend_card">
+          <div class="preview_trend_card">
             <div class="article_menu">
               <ul class="menu_category_article">
                 <li class="item_article_menu">
@@ -135,10 +136,10 @@
             <h2 class="title_trend_card">
               <a class="link_trend_card" href="#0">Собираемся в первый поход в горы</a>
             </h2>
-          </section>
+          </div>
         </article>
         <article class="trend_card_4">
-          <section class="preview_trend_card">
+          <div class="preview_trend_card">
             <div class="article_menu">
               <ul class="menu_category_article">
                 <li class="item_article_menu">
@@ -152,7 +153,7 @@
             <h2 class="title_trend_card">
               <a class="link_trend_card" href="#0">Сейчас в тренде: Сколько витамина C в лимонах?</a>
             </h2>
-          </section>
+          </div>
         </article>
       </div>
     </div>
@@ -414,9 +415,7 @@
       
         <aside class="right_column">
           <section class="new_posts">
-            <h3 class="title_block_right_column">
-              <a class="link_title_right" href="#0">Новые посты</a>
-            </h3>
+            <h2 class="title_block_right_column">Новые посты</h2>
              
             <div class="small_card_container">
               <ul class="list_small_card">
@@ -505,9 +504,7 @@
           </section>
           
           <section class="subscribe">
-            <h3 class=title_block_right_column>
-              <a class="link_title_right" href="#0">Рассылка</a>        
-            </h3>
+            <h2 class=title_block_right_column>Рассылка </h2>
             
             <form class="subscribe_form">
               <label class="label_subscribe">
@@ -519,9 +516,7 @@
           </section>
               
           <section class="block_tags">
-            <h3 class=title_block_right_column>
-              <a class="link_title_right" href="#0">Теги</a>
-            </h3>
+            <h2 class=title_block_right_column>Теги</h2>
             
             <ul class="list_tags">
               <li class="item_tag">
@@ -552,9 +547,7 @@
           </section>
               
           <section class="topics">
-            <h3 class=title_block_right_column>
-              <a class="link_title_right" href="#0">Темы</a>
-            </h3>
+            <h2 class=title_block_right_column>Темы</h2>
             
             <ul class="list_topic">
               <li class="item_topic">
@@ -587,9 +580,7 @@
     </div>
 
     <div class="section_our_products">
-      <h2 class="title_section">
-        <a class="link_section" href="#0">Наши изделия</a>
-      </h2>
+      <h2 class="title_section">Наши изделия</h2>
 
       <div class="product_cards_container">
         <article class="product_card_1">
@@ -597,7 +588,7 @@
             <img class="card_img" src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
           </div>
           
-          <section class="product_info">
+          <div class="product_info">
                 
             <h2 class="product_card_title">
               <a class="link_article" href="#0">Подушки на диван</a>
@@ -617,16 +608,18 @@
                   <span class="product_rub">₽</span>
                 </span>
               </div>
-              <button class="product_button" type="button">В магазин</button>
+              <div class="product_button">
+                <a class="link_to_shop" href="#0">В магазин</a>
+              </div>
             </footer>
-          </section>
+          </div>
         </article>
         <article class="product_card_2">
           <div class="card_img_container">
             <img class="card_img" src="images/shop-item-desk2.jpg" alt="Кукла Зайчик ручной работы">
           </div>
           
-          <section class="product_info">
+          <div class="product_info">
                 
             <h2 class="product_card_title">
               <a class="link_article" href="#0">Кукла "Зайчик"</a>
@@ -642,16 +635,19 @@
                   <span class="product_rub">₽</span>
                 </span>
               </div>
-              <button class="product_button" type="button">В магазин</button>
+              <div class="product_button">
+                <a class="link_to_shop" href="#0">В магазин</a>
+
+              </div>
             </footer>
-          </section>
+          </div>
         </article>
         <article class="product_card_3">
           <div class="card_img_container">
             <img class="card_img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка и ваза">
           </div>
           
-          <section class="product_info">
+          <div class="product_info">
                 
             <h2 class="product_card_title">
               <a class="link_article" href="#0">Шестиугольная рамка</a>
@@ -671,16 +667,19 @@
                   <span class="product_rub">₽</span>
                 </span>
               </div>
-              <button class="product_button" type="button">В магазин</button>
+              <div class="product_button">
+                <a class="link_to_shop" href="#0">В магазин</a>
+
+              </div>
             </footer>
-          </section>
+          </div>
         </article>
       </div>
     </div>
       
     <footer class="footer"> 
         <div class="block_social_link">
-          <adress class="articles_socials">
+          <address class="articles_socials">
             <ul class="list_socials">
               <li class="item_socials">
                 <a href="#0" class="socials_link socials_link_twitter">
@@ -701,7 +700,7 @@
               </li>
             </ul>
             
-          </adress>
+          </address>
         </div>
         
         <div class="copyright">
