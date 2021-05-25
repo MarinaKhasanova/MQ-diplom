@@ -183,7 +183,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
                
                 <div class="author">Неизвестный автор</div>
@@ -219,7 +219,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
               
                 <div class="author">Неизвестный автор</div>
@@ -252,7 +252,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
               
                 <div class="author">Неизвестный автор</div>
@@ -288,7 +288,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
                 
                 <div class="author">Неизвестный автор</div>
@@ -327,7 +327,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
                 
                 <div class="author">Неизвестный автор</div>
@@ -363,7 +363,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
                 
                 <div class="author">Неизвестный автор</div>
@@ -399,7 +399,7 @@
               
               <div class="date_author">
                 <div class="date">
-                  <time pubdate datetime="<2019-06-10>">10 июня 2019</time>
+                  <time datetime="2019-06-10">10 июня 2019</time>
                 </div>
                 
                 <div class="author">Неизвестный автор</div>
@@ -422,9 +422,9 @@
                 <li class="preview_small_card">
                   <img class="small_preview_img" src="images/2.jpg" alt="Пляж залитый солнцем">
                   
-                  <div small="small_card_content">
+                  <div class="small_card_content">
                     <div class="small_card_date">
-                      <time pubdate datetime="<2019-06-14>">14 июня 2019</time>
+                      <time datetime="2019-06-14">14 июня 2019</time>
                     </div>
                     
                     <h3 class="title_small_card">
@@ -436,9 +436,9 @@
                 <li class="preview_small_card">
                   <img class="small_preview_img" src="images/151.jpg" alt="Асана на голове">
                 
-                  <div small="small_card_content">
+                  <div class="small_card_content">
                     <div class="small_card_date">
-                      <time pubdate datetime="<2019-06-14>">14 июня 2019</time>
+                      <time datetime="2019-06-14">14 июня 2019</time>
                     </div>
                   
                     <h3 class="title_small_card">
@@ -450,9 +450,9 @@
                 <li class="preview_small_card">
                   <img class="small_preview_img" src="images/45.jpg" alt="Интерьер с креслом">
                 
-                  <div small="small_card_content">
+                  <div class="small_card_content">
                     <div class="small_card_date">
-                      <time pubdate datetime="<2019-06-14>">14 июня 2019</time>
+                      <time datetime="2019-06-14">14 июня 2019</time>
                     </div>
                   
                     <h3 class="title_small_card">
@@ -464,9 +464,9 @@
                 <li class="preview_small_card">
                   <img class="small_preview_img" src="images/501.jpg" alt="Стол накрытый для приёма пищи">
                 
-                  <div small="small_card_content">
+                  <div class="small_card_content">
                     <div class="small_card_date">
-                      <time pubdate datetime="<2019-06-14>">14 июня 2019</time>
+                      <time datetime="2019-06-14">14 июня 2019</time>
                     </div>
                   
                     <h3 class="title_small_card">
@@ -478,9 +478,9 @@
                 <li class="preview_small_card">
                   <img class="small_preview_img" src="images/7.jpg" alt="Фото три девушки с длинными волосами">
                 
-                  <div small="small_card_content">
+                  <div class="small_card_content">
                     <div class="small_card_date">
-                      <time pubdate datetime="<2019-06-14>">14 июня 2019</time>
+                      <time datetime="2019-06-14">14 июня 2019</time>
                     </div>
                   
                     <h3 class="title_small_card">
@@ -585,7 +585,12 @@
       <div class="product_cards_container">
         <article class="product_card_1">
           <div class="card_img_container">
-            <img class="card_img" src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
+            <picture>
+              <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1201px)">
+              <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+              <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+              <img class="card_img" src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
+            </picture>
           </div>
           
           <div class="product_info">
@@ -616,7 +621,12 @@
         </article>
         <article class="product_card_2">
           <div class="card_img_container">
-            <img class="card_img" src="images/shop-item-desk2.jpg" alt="Кукла Зайчик ручной работы">
+            <picture>
+              <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1201px)">
+              <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+              <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+              <img class="card_img" src="images/shop-item-desk2.jpg" alt="Кукла Зайчик ручной работы">
+            </picture>
           </div>
           
           <div class="product_info">
@@ -644,7 +654,12 @@
         </article>
         <article class="product_card_3">
           <div class="card_img_container">
-            <img class="card_img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка и ваза">
+            <picture>
+              <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1201px)">
+              <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+              <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+              <img class="card_img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка и ваза">
+            </picture>
           </div>
           
           <div class="product_info">
